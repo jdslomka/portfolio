@@ -1,140 +1,65 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>My Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- Custom Image Scaling -->
-		<style> 
-			.scaledImage { 
-				text-align:center; 
-			}  
-			img { 
-				width:100%; 
-				height:100%; 
-				object-fit: cover; 
-			} 
-		</style> 
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">About me</a></li>
-							<li><a href="#two">Projects</a></li>
-							<li><a href="#three">Resume</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<head>
+  <meta charset="utf-8">
+  <title>John Slomka</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="images/favicon-tall.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merriweather+Sans&family=Montserrat&display=swap" rel="stylesheet">
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>My Portfolio</h1>
-							<p>A showcase of my projects and my abilities.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm John.</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
 
-				<!-- About me section -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a class="image"><img src="images/P4EFall2019CareerFairHeadshots-1842.jpeg" alt="" data-position="top top" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>About me</h2>
-									<p><b>John Slomka</b><br>Third year computer science student at Wilfrid Laurier University.<br>Love coordinating in a team environment to solve problems. Experienced at trouble-shooting, enjoy working hard, and love discovering how to do things more efficiently and effectively.</p>
-									<ul class="actions">
-										<li><a href="mailto: jdslomka@icloud.com" class="icon fa-envelope" target="_blank"></a></li>
-										<li><a href="https://github.com/jdslomka" class="icon fa-github" target="_blank"></a></li>
-										<li><a href="https://www.linkedin.com/in/john-slomka/" class="icon fa-linkedin" target="_blank"></a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile" src="images/John-Small.png" alt="profile-img">
+      <h2>Hello.</h2>
+      <p class="personal-descr">I am a software developer who loves coordinating in a team environment to solve problems. I am experienced at trouble-shooting, I enjoy working hard, and I like learning to do things more efficiently and effectively.
+      </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/code.png" alt="code-img">
+        <h3>Design & Development</h3>
+        <p>I dicovered my joy from coding at 16 years old because I wanted to develop my own app! As time passes I have been able to grow my understanding and admiration for design and development from my experience making both mobile and web
+          applications.</p>
+      </div>
+      <div class="skill-row">
+        <img class="beekeeping-img" src="images/beekeeping.png" alt="Man Holding Bee Comb">
+        <h3>Beekeeping?</h3>
+        <p>Well, not quite. I would say I have an acute skill that may come across as highly random but, is highly influential to me. My curiosity. I am facinated by new ideas and ventures. They manage to leave a lasting impression (a dream if you will) on me. This dream, I
+          will forever aim to experience and perfect. <em>One of these dreams, is to own, and take care of, <strong>my own bees</strong>.</em></p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love bees as much as I do.</h3>
+      <p class="contact-me-descr">Have an wild sense of curiosity? Let's talk about our wild dreams! We can code while fuled by our sense of wonder!</p>
+      <a class="btn" href="mailto:jdslomka@icloud.com">CONTACT ME</a>
+    </div>
+  </div>
 
-				<!-- Projects section -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>My Projects</h2>
-							<p>An overview of my projects <br>(Click name to view code)</p>
-							<div class="features">
-								<section>
-									<span class="icon major fa-list"></span>
-									<h3><a href="https://github.com/jdslomka/Checklist_App" target="_blank">Life North.Church Ministry App</a></li>
-									<p>IOS application that keeps track of volunteers progress while serving
-									</p>
-								</section>
-								<section>
-										<span class="icon major fa-calculator"></span>
-										<h3><a href="https://github.com/jdslomka/Java-Calculator" target="_blank">Java Calculator</a></li>
-										<p>Class assignment in object oriented programming course</p>
-									</section>
-								<section>
-									<span class="icon major fa-balance-scale"></span>
-									<h3><a href="https://github.com/jdslomka/Tip-Calculator" target="_blank">Tip Calculator</a></li>
-									<p>A simple calculator that gives the tip value of an entered bill amount. Created using Apple's SwiftUI in Xcode.</p>
-								</section>
-								<section>
-									<span class="icon major fa-vcard-o"></span>
-									<h3><a href="https://github.com/jdslomka/The-Hub-Hour-Sheets" target="_blank">Hour Sheets</a></li>
-									<p>Google sheets with custom macros to create a smoother experience for employees and supervisors. Created for The Hub Printing Services at Wilfrid Laurier University</p>
-								</section>
-							</div>
-							<!----<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>--->
-						</div>
-					</section>
 
-			<section id="three" class="wrapper style1 fullscreen fade-up">
-				<div class="inner">
-					<h1>Resume</h1>
-					<div class = "scaledImage"><img src="images/WebsiteResume.pdf" alt="" data-position="top top" /></a>
-					<p></p>
-					<ul class="actions">
-						<li><a href="#intro" class="button scrolly">Back</a></li>
-					</ul>
-				</div>
-				
-			</section>
-					
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/john-slomka/" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/jdslomka" target="_blank">Github</a>
+    <p class="copywrite">© 2022 John Slomka.</p>
+  </div>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; John Slomka's Portfolio. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
+</body>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
