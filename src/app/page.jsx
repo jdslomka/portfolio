@@ -5,16 +5,8 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
-} from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import logoAchievers from '@/images/logos/achievers.png'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import image1 from '@/images/photos/beach.png'
 import image2 from '@/images/photos/beekeeping.png'
 import image3 from '@/images/photos/lake.png'

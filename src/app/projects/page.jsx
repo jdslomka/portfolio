@@ -3,9 +3,6 @@ import Image from 'next/image'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoEmbraceGains from '@/images/logos/embrace-gains.png'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoEverythingFalls from '@/images/logos/everything-falls.svg'
 
 const projects = [
