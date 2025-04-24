@@ -10,7 +10,7 @@ const projects = [
     name: 'Everything Falls',
     description: 'Roguelite Survival Platformer Mobile Game - Coming soon',
     link: {
-      href: 'https://github.com/Pangolin-Gaming/everything-falls',
+      href: 'https://github.com/Pangolin-Gaming',
       label: 'Pangolin-Gaming',
     },
     logo: logoEverythingFalls,
