@@ -17,8 +17,17 @@ const projects = [
   },
   {
     name: 'EmbraceGains',
-    description: "Company website who provide children's therapy services",
+    description: "Company website for providing children's therapy services",
     link: { href: 'https://embracegains.com', label: 'embracegains.com' },
+    logo: logoEmbraceGains,
+  },
+  {
+    name: 'EmbraceGains',
+    description: 'Company website for providing wedding services',
+    link: {
+      href: 'https://embracegains.com/marriage_services',
+      label: 'embracegains.com/marriage_services',
+    },
     logo: logoEmbraceGains,
   },
 ]
