@@ -3,15 +3,16 @@ import Image from 'next/image'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoEmbraceGains from '@/images/logos/embrace-gains.png'
-import logoEverythingFalls from '@/images/logos/everything-falls.svg'
+import logoEverythingFalls from '@/images/logos/everything-falls.png'
 
 const projects = [
   {
     name: 'Everything Falls',
-    description: 'Roguelite Survival Platformer Mobile Game - Coming soon',
+    description:
+      'Chaotic endless vertical scroller mobile game where you dash, collect and climb to survive the fall.',
     link: {
-      href: 'https://github.com/Pangolin-Gaming',
-      label: 'Pangolin-Gaming',
+      href: 'https://hallowedharestudio.com/everythingfalls',
+      label: 'everythingfalls.com',
     },
     logo: logoEverythingFalls,
   },
@@ -52,7 +53,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Simple, Practical Projects to Start My Collection."
-      intro="These early projects—a mobile game and my parents’ therapy service website, EmbraceGains—reflect my focus on creating straightforward, functional solutions that make a difference. They’re just the beginning of my growing portfolio!"
+      intro="These early projects reflect my focus on creating straightforward and functional solutions that make a difference."
     >
       <ul
         role="list"
